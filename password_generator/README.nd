@@ -1,0 +1,48 @@
+Here’s a `README.md` file for your Password Generator with a GUI:
+
+```markdownvvvvvv
+# Password Generator
+
+This is a Python-based Password Generator with a graphical user interface (GUI) built using Tkinter. It allows users to create strong and customizable passwords based on user-defined criteria such as length, inclusion of letters, digits, and symbols.
+
+## Features
+
+- **Customizable Passwords:** Choose the length and types of characters to include in the password (letters, digits, symbols).
+- **GUI Interface:** User-friendly interface to generate passwords easily.
+- **Clipboard Integration:** Automatically copies the generated password to the clipboard for quick use.
+- **Error Handling:** Validates user input and provides feedback through error messages.
+
+## Requirements
+
+To run this application, you need the following Python libraries:
+
+```bash
+pip install pyperclip
+```
+
+## Usage
+
+1. **Run the script:**
+   ```bash
+   python password_generator_gui.py
+   ```
+
+2. **Using the Application:**
+   - **Password Length:** Enter the desired length of the password.
+   - **Character Types:** Select the types of characters to include in the password (letters, digits, symbols).
+   - **Generate Password:** Click the "Generate Password" button to create the password.
+   - **Copy to Clipboard:** The generated password will automatically be copied to your clipboard for easy use.
+
+3. **Example:**
+   - Enter `12` in the password length field.
+   - Check the boxes for "Include Letters", "Include Digits", and "Include Symbols".
+   - Click "Generate Password" to get a strong, random password.
+
+## Customization
+
+- **Theme:** The application uses a simple, light-themed interface with custom colors.
+- **Font:** The GUI uses the Arial font for clarity and consistency.
+
+## License
+
+This project is licensed under the MIT License.
