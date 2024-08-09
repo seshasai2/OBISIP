@@ -1,0 +1,73 @@
+# BMI Calculator with GUI
+
+This is a Python-based BMI (Body Mass Index) Calculator application with a graphical user interface (GUI) built using Tkinter. The application allows users to input their weight and height, calculate their BMI, classify it into categories such as "Underweight," "Healthy weight," "Overweight," or "Obesity," and receive personalized health tips. The application also stores user data and displays a trend graph of BMI over time.
+
+## Features
+
+- **BMI Calculation**: Enter your weight and height to calculate your BMI.
+- **BMI Classification**: Categorizes your BMI as Underweight, Healthy weight, Overweight, or Obesity.
+- **Health Tips**: Provides personalized health tips based on your BMI category.
+- **Data Storage**: Saves your BMI data to a JSON file for future reference.
+- **Trend Visualization**: Displays a trend graph of your BMI over time using Matplotlib.
+- **Image Display**: Displays a BMI-related image in the GUI.
+- **Reset Functionality**: Clear all input fields and reset the result display.
+
+## Requirements
+
+- Python 3.x
+- Tkinter (included in Python standard library)
+- Pillow (`pip install Pillow`)
+- Matplotlib (`pip install matplotlib`)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/bmi-calculator.git
+   cd bmi-calculator
+   ```
+
+2. **Install the required packages:**
+
+   ```bash
+   pip install Pillow matplotlib
+   ```
+
+3. **Place the required image:**
+
+   Ensure that you have an image named `bmi.jpeg` in the same directory as your script. This image will be displayed in the GUI.
+
+## Usage
+
+1. **Run the application:**
+
+   ```bash
+   python bmi_calculator.py
+   ```
+
+2. **Using the application:**
+
+   - Enter your weight in kilograms (kg) and height in centimeters (cm).
+   - Click the "Calculate" button to compute your BMI and see the classification along with health tips.
+   - The application will save your data to `bmi_data.json`.
+   - Click the "Reset" button to clear the input fields.
+
+3. **Viewing the BMI trend:**
+
+   - Each time you calculate your BMI, the application will update the stored data and display a trend graph.
+   - The graph shows how your BMI has changed over time.
+
+## Files
+
+- `bmi_calculator.py`: The main script containing the BMI Calculator application.
+- `bmi_data.json`: The JSON file where user data is stored.
+- `bmi.jpeg`: The image file to be displayed in the application (you must provide this file).
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss improvements.
+
+## License
+
+This project is licensed under the MIT License 
